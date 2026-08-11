@@ -49,3 +49,8 @@ img {
   display: flex;
   gap: 50px;
 }
+
+.decoracion{
+  display: flex;
+  justify-content: flex-end; 
+}
