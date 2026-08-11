@@ -33,6 +33,18 @@ h1 {
   padding: 108.4px 0 0 0;
 }
 
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+p {
+  font-size: 1rem;
+  color: #717171;
+}
 
 a {
   text-decoration: none;
@@ -53,13 +65,18 @@ img {
   padding: 14px 32px; 
   border-radius: 4px; 
   background-color: #69B99D; 
-  color: #ffffff;          
+  color: #ffffff;   
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;       
 }
 
 
 .divIMAGEN {
   display: flex;
-  justify-content: flex-end; 
+  justify-content: flex-end;
+  position: relative;
 };
 
 
