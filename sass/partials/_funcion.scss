@@ -1,0 +1,5 @@
+@function rem($px) {
+    @return ($px / 16) * 1rem;
+  }
+//Ejemplo de como usarlo:
+//font-size: rem(40);   Solo para texto
