@@ -20,6 +20,18 @@ h1 {
   padding: 30px 60px;
 }
 
+.Menu{
+  display: flex;
+  justify-content: flex-end; 
+  gap: 50px;
+}
+
+.section{
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 108.4px 0 0 0;
+}
 
 
 a {
