@@ -24,6 +24,7 @@ h1 {
   display: flex;
   justify-content: flex-end; 
   gap: 50px;
+  
 }
 
 .section{
@@ -95,7 +96,8 @@ a {
 
 
 .footer1{
-  text-align: center
+  text-align: center;
+  background-color: red; 
  
 };
 
