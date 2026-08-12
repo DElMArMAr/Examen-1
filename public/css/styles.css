@@ -49,11 +49,13 @@ p {
 a {
   text-decoration: none;
 }
-
-img {
-  max-width: 100%;
-  height: auto;
+.divIMAGEN {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  margin-left: auto;
 }
+
 
 .container {
   max-width: 1200px;
@@ -73,11 +75,17 @@ img {
 }
 
 
+.textoIzquierda {
+  max-width: 480px;
+  flex: 1 1 400px;
+}
+
 .divIMAGEN {
   display: flex;
   justify-content: flex-end;
   position: relative;
-};
+  margin-left: auto;
+}
 
 
 .whatLogo{
@@ -89,3 +97,18 @@ img {
   display: flex;
   justify-content: flex-end; 
 };
+
+.footer {
+  text-align: center;
+  padding: 40px 0 30px 0;
+  color: #717171;
+  font-size: 0.9rem;
+}
+
+.decoracion {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
