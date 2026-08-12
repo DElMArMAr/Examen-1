@@ -1,5 +1,14 @@
-.divIMAGEN {
-    display: flex;
-    justify-content: flex-end; 
-  }
-  
+.section{
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 108.4px 0 0 0;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}

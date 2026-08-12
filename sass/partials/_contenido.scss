@@ -1,0 +1,29 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+  }
+  
+  .boton { 
+    padding: 14px 32px; 
+    border-radius: 4px; 
+    background-color: #69B99D; 
+    color: #ffffff;   
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;       
+  }
+  
+  
+  .textoIzquierda {
+    max-width: 480px;
+    flex: 1 1 400px;
+  }
+  
+  .divIMAGEN {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin-left: auto;
+  }

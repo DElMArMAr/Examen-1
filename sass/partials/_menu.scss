@@ -1,6 +1,22 @@
+h1 {
+  font-size: 4rem;
+  color: #4D4D4D;
+}
+
+.highlight {
+  color: #69B99D;
+}
+
+
+.HomeMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+}
+
 .Menu{
-    display: flex;
-    justify-content: flex-end; 
-    display: flex;
-    gap: 50px;
-  }
+  display: flex;
+  justify-content: flex-end; 
+  gap: 50px;
+}
